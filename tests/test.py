@@ -1,9 +1,9 @@
 import time
 
 from selenium import webdriver
-from pages.login_page import LoginPage
-from pages.main_page import MainPage
-from pages.search_results_page import SearchResultsPage
+from features.pages.login_page import LoginPage
+from features.pages.main_page import MainPage
+from features.pages.search_results_page import SearchResultsPage
 
 driver = webdriver.Chrome("D:/Tools/chromedriver.exe")
 driver.implicitly_wait(5)
